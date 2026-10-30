@@ -1,0 +1,90 @@
+/* Requirement: CSS selector styling an HTML tag */
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #f5efe6; /* cream */
+  color: #3b2a1e;            /* dark brown text */
+  margin: 0;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #7a4a26; /* medium brown */
+  margin-top: 0;
+}
+
+/* Requirement: id, styled */
+#hero {
+  background-color: #4a2f1d; /* espresso */
+  color: #ffffff;
+  text-align: center;
+  padding: 48px 20px 36px;
+}
+
+#hero h1 {
+  margin: 12px 0 4px;
+}
+
+.tagline {
+  margin: 0;
+  color: #e3cfb4; /* tan */
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #c69c6d; /* caramel */
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* Requirement: class applied to 2+ elements, styled.
+   Requirement: box model properties (margin, padding, border) */
+.section {
+  background-color: #ffffff;
+  margin: 24px 16px;
+  padding: 20px 28px;
+  border: 1px solid #e0d2bf;
+  border-left: 6px solid #a0673a; /* cinnamon */
+  border-radius: 6px;
+}
+
+.experience {
+  padding-left: 20px;
+}
+
+.experience li {
+  margin-bottom: 12px;
+}
+
+.role {
+  font-weight: 600;
+}
+
+.when {
+  display: block;
+  font-size: 0.9em;
+  color: #8b7360;
+}
+
+a {
+  color: #8b4f1f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Requirement: change link color on hover */
+a:hover {
+  color: #c69c6d;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #8b7360;
+  font-size: 0.9em;
+}
