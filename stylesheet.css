@@ -12,28 +12,41 @@ h2 {
   margin-top: 0;
 }
 
-/* Requirement: id, styled */
+/* Requirement: id, styled.
+   Photo on the left, name on the right. */
 #hero {
-  background-color: #4a2f1d; /* espresso */
-  color: #ffffff;
-  text-align: center;
-  padding: 48px 20px 36px;
+  max-width: 728px;
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  padding: 32px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #e0d2bf;
+}
+
+.name-block {
+  text-align: right;
 }
 
 #hero h1 {
-  margin: 12px 0 4px;
+  margin: 0;
+  font-size: 2.2em;
+  color: #4a2f1d; /* espresso */
 }
 
 .tagline {
-  margin: 0;
-  color: #e3cfb4; /* tan */
+  margin: 4px 0 0;
+  font-style: italic;
+  color: #8b7360;
 }
 
-.avatar {
-  width: 140px;
-  height: 140px;
+.photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #c69c6d; /* caramel */
+  border: 3px solid #c69c6d; /* caramel */
 }
 
 main {
